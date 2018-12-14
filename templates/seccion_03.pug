@@ -1,0 +1,8 @@
+include includes/_mixins.pug
+include includes/_header.pug
+
+#mainContent.container-fluid
+    .container.p-2-p-lg-5
+        include:markdown-it ../articles/seccion_03.md
+
+script(src='js/jsOneFile/scripts.min.js' charset='utf-8')
